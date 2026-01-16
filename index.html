@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>你的姓名｜个人简历</title>
+  <meta name="description" content="你的姓名 - 个人简历与作品集" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="avatar-wrap">
+        <!-- 如果你暂时没有头像，把下一行 img 注释掉即可 -->
+        <img class="avatar" src="assets/avatar.png" alt="头像" />
+      </div>
+
+      <div class="header-main">
+        <h1 class="name">你的姓名</h1>
+        <p class="headline">目标岗位｜方向关键词（如：后端开发 / 算法 / 产品）</p>
+
+        <div class="contact">
+          <a href="mailto:your_email@example.com">your_email@example.com</a>
+          <span class="dot">•</span>
+          <a href="https://www.linkedin.com/in/your-id" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span class="dot">•</span>
+          <a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+          <span class="dot">•</span>
+          <span>所在城市</span>
+        </div>
+
+        <div class="cta">
+          <a class="btn" href="#projects">查看项目</a>
+          <a class="btn btn-ghost" href="#experience">查看经历</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 简介 -->
+    <section class="card">
+      <h2>简介</h2>
+      <p>
+        用 2-4 句话概括你是谁、擅长什么、做过什么、要找什么。
+        例如：具备 XX 年开发经验，熟悉 Java/Spring/MyBatis，参与过 XXX 系统建设，负责 XXX 模块落地与优化。
+      </p>
+      <ul class="tags">
+        <li>Java</li><li>Spring Boot</li><li>MyBatis</li><li>SQL</li><li>Python</li><li>Linux</li>
+      </ul>
+    </section>
+
+    <!-- 技能 -->
+    <section class="card">
+      <h2>技能</h2>
+      <div class="two-col">
+        <div>
+          <h3>技术栈</h3>
+          <ul>
+            <li>后端：Spring Boot / REST / MyBatis / JPA（按实际改）</li>
+            <li>数据库：MySQL / PostgreSQL（按实际改）</li>
+            <li>工程化：Git / Gradle / Maven / Docker（按实际改）</li>
+          </ul>
+        </div>
+        <div>
+          <h3>能力点</h3>
+          <ul>
+            <li>需求分析、接口设计、模块拆分与交付</li>
+            <li>性能与稳定性优化、日志与故障定位</li>
+            <li>跨团队沟通与推进</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目 -->
+    <section id="projects" class="card">
+      <h2>项目</h2>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>项目名称 A</h3>
+          <div class="meta">2025.01 - 2025.06｜角色：后端开发</div>
+        </div>
+        <p class="desc">
+          一句话说明项目背景与价值（业务场景/用户规模/目标）。
+        </p>
+        <ul>
+          <li>负责：XXX 模块设计与实现，输出接口文档与联调方案。</li>
+          <li>优化：将 XX 接口耗时从 800ms 降到 120ms（示例），提升稳定性。</li>
+          <li>落地：上线后支持 XX 用户/日活/调用量（有数据就写）。</li>
+        </ul>
+        <div class="links">
+          <a href="https://github.com/your-username/your-project" target="_blank" rel="noreferrer">代码</a>
+          <span class="dot">•</span>
+          <a href="https://your-demo-link" target="_blank" rel="noreferrer">演示</a>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>项目名称 B</h3>
+          <div class="meta">2024.09 - 2024.12｜角色：算法/研究/开发</div>
+        </div>
+        <p class="desc">写清楚：问题是什么，你的方法是什么，结果如何。</p>
+        <ul>
+          <li>实现：XXX 模型/方案，核心指标达到 XX。</li>
+          <li>工程：训练/推理流程、数据处理、可视化与评估。</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- 经历 -->
+    <section id="experience" class="card">
+      <h2>经历</h2>
+      <div class="item">
+        <div class="item-head">
+          <h3>公司/学校｜部门/学院｜职位/方向</h3>
+          <div class="meta">2023.09 - 至今｜所在城市</div>
+        </div>
+        <ul>
+          <li>做了什么：用动词开头，体现影响。</li>
+          <li>结果：量化指标或可验证成果（交付、上线、论文、竞赛）。</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 教育 -->
+    <section class="card">
+      <h2>教育背景</h2>
+      <div class="item">
+        <div class="item-head">
+          <h3>学校名称｜专业</h3>
+          <div class="meta">20XX - 20XX</div>
+        </div>
+        <ul>
+          <li>研究方向/课程：XXX</li>
+          <li>成绩/奖项（可选）：XXX</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 证书/奖项（可选） -->
+    <section class="card">
+      <h2>证书与奖项</h2>
+      <ul>
+        <li>证书 A（年份）</li>
+        <li>竞赛/奖项 B（年份）</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> 你的姓名｜Powered by GitHub Pages</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
